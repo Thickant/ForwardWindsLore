@@ -54,7 +54,7 @@ define(['game', 'pixi', 'howler'], function (game, PIXI, Howler) {
       value: function preloadEssential() {
         var _this = this;
 
-        var essential = ['assets/fwLoadscreen.png', 'assets/fwAdventaleLogo.png', 'assets/MunroFont.fnt'];
+        var essential = ['assets/fwLoadscreen.png', 'assets/fwAdventaleLogo.png', 'assets/MunroFont.fnt', 'assets/MunroFont_0.png'];
         essential.forEach(function (path) {
           PIXI.Loader.shared.add(path);
         });
