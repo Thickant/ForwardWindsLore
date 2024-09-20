@@ -1,5 +1,10 @@
 "use strict";
 
+// test
+
+console.log("she app on my js till i is this acutally running:");
+
+
 requirejs.config({
   baseUrl: 'scripts',
   waitSeconds: 60,
