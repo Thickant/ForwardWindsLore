@@ -2,7 +2,7 @@
 
 // test
 
-console.log("she app on my js till i is this acutally running:");
+console.log("is this acutally running:");
 
 
 requirejs.config({
