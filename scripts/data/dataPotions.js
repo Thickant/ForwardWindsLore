@@ -9,7 +9,7 @@ define([''], function () {
   //* Potions
   [{
     effect: 'randomStat',
-    params: []
+    params: ['dmg']
   }], [{
     effect: 'customStat',
     params: [{
@@ -40,7 +40,7 @@ define([''], function () {
     tooltip: '+100 EXP'
   }], [{
     effect: 'randomStat',
-    params: []
+    params: ['dmg']
   }], [{
     effect: 'customStat',
     params: [{
@@ -61,7 +61,7 @@ define([''], function () {
     icon: 149
   }], [{
     effect: 'randomStat',
-    params: []
+    params: ['dmg']
   }], [{
     effect: 'customStat',
     params: [{
@@ -70,7 +70,7 @@ define([''], function () {
     tooltip: '+30 HP/ATK'
   }], [{
     effect: 'randomStat',
-    params: []
+    params: ['dmg']
   }], [{
     effect: 'unlockArchery',
     params: [],
@@ -78,7 +78,7 @@ define([''], function () {
     icon: 152
   }], [{
     effect: 'randomStat',
-    params: []
+    params: ['dmg']
   }], [{
     effect: 'randomStat',
     params: ['dmg']
@@ -102,7 +102,7 @@ define([''], function () {
     icon: 148
   }], [{
     effect: 'randomStat',
-    params: []
+    params: ['dmg']
   }], [{
     effect: 'customStat',
     params: [{
