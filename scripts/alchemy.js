@@ -71,7 +71,7 @@ define(['game', 'dataPotions', 'itemUsable'], function (game, DataPotions, ItemU
         var level = this.level;
 
         for (var i = 0; i < 3; i++) {
-          var required = 27 * Math.pow(1.4, (level + i) * 1.5);
+          var required = 1 * Math.pow(1.4, (level + i) * 1.5);
 
           if (liquid >= required) {
             liquid -= required;
