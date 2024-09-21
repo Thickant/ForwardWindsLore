@@ -33,7 +33,7 @@ define([''], function () {
     b1: {
       level: 5,
       image: 'a2_plant',
-      exp: 1.5
+      exp: 100.5
     },
     b2: {
       level: 6,
