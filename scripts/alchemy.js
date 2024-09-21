@@ -61,7 +61,7 @@ define(['game', 'dataPotions', 'itemUsable'], function (game, DataPotions, ItemU
     }, {
       key: "calculateRequiredLiquid",
       value: function calculateRequiredLiquid() {
-        return 27 * Math.pow(1.4, this.level * 1.5);
+        return 1 * Math.pow(1.4, this.level * 1.5);
       }
     }, {
       key: "calculateBrewCount",
