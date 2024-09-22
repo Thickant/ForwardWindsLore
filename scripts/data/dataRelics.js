@@ -44,7 +44,7 @@ define([''], function () {
     icon: 166,
     name: 'Dark Gloves',
     enemyCount: 4,
-    stats: [['swl', 1], ['arc', 2]],
+    stats: [['swl', 1], ['arc', 1]],
     tooltip: 'Seventh Stage'
   }, {
     icon: 167,
