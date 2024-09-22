@@ -38,13 +38,13 @@ define([''], function () {
     icon: 165,
     name: 'Glass Orbicle',
     enemyCount: 9,
-    stats: [['pek', 2]],
+    stats: [['pek', 1]],
     tooltip: 'Sixth Stage'
   }, {
     icon: 166,
     name: 'Dark Gloves',
     enemyCount: 4,
-    stats: [['swl', 1], ['arc', 1]],
+    stats: [['swl', 1], ['arc', 2]],
     tooltip: 'Seventh Stage'
   }, {
     icon: 167,
