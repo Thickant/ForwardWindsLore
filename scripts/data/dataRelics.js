@@ -20,13 +20,13 @@ define([''], function () {
     icon: 162,
     name: 'A Shovel',
     enemyCount: 1,
-    stats: [['swl', 2]],
+    stats: [['swl', 1]],
     tooltip: 'Third Stage'
   }, {
     icon: 163,
     name: 'Old Mirror',
     enemyCount: 9,
-    stats: [['mir', 1]],
+    stats: [['mir', 2]],
     tooltip: 'Fourth Stage'
   }, {
     icon: 164,
