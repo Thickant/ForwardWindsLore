@@ -14,7 +14,7 @@ define([''], function () {
     icon: 161,
     name: 'Fairie Boots',
     enemyCount: 14,
-    stats: [['jmp', 1]],
+    stats: [['jmp', 2]],
     tooltip: 'Second Stage'
   }, {
     icon: 162,
