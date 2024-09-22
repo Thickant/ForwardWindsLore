@@ -14,13 +14,13 @@ define([''], function () {
     icon: 161,
     name: 'Fairie Boots',
     enemyCount: 14,
-    stats: [['jmp', 3]],
+    stats: [['jmp', 1]],
     tooltip: 'Second Stage'
   }, {
     icon: 162,
     name: 'A Shovel',
     enemyCount: 1,
-    stats: [['swl', 1]],
+    stats: [['swl', 2]],
     tooltip: 'Third Stage'
   }, {
     icon: 163,
