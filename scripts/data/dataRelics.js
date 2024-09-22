@@ -26,7 +26,7 @@ define([''], function () {
     icon: 163,
     name: 'Old Mirror',
     enemyCount: 9,
-    stats: [['mir', 2]],
+    stats: [['mir', 3]],
     tooltip: 'Fourth Stage'
   }, {
     icon: 164,
