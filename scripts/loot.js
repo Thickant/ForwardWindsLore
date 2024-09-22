@@ -70,8 +70,12 @@ define(['game', 'item', 'itemUsable'], function (game, Item, ItemUsable) {
     }, {
       key: "rollRarity",
       value: function rollRarity() {
-        // Always return the highest rarity (4)
-        return 4;
+        var rarityChances = [0.95, 0.85, 0.6, 0.35, 0];
+        var rarityRoll = Math.random();
+        var rarity = 4 - rarityChances.findIndex(function (r) {
+          return rarityRoll >= r;
+        });
+        return rarity;
       }
     }, {
       key: "rollType",
