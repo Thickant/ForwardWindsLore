@@ -26,7 +26,7 @@ define([''], function () {
     icon: 163,
     name: 'Old Mirror',
     enemyCount: 9,
-    stats: [['mir', 3]],
+    stats: [['mir', 1]],
     tooltip: 'Fourth Stage'
   }, {
     icon: 164,
@@ -38,7 +38,7 @@ define([''], function () {
     icon: 165,
     name: 'Glass Orbicle',
     enemyCount: 9,
-    stats: [['pek', 1]],
+    stats: [['pek', 2]],
     tooltip: 'Sixth Stage'
   }, {
     icon: 166,
