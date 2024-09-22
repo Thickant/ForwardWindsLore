@@ -208,7 +208,7 @@ define([''], function () {
     f1: {
       level: 40,
       image: 'a6_fairy',
-      mhp: 20,
+      mhp: 0.1,
       actions: ['trial'],
       stageboss: true
     },
