@@ -19,7 +19,7 @@ define([''], function () {
     tooltip: '40% chance to perform\nSHIELD Strike:\nAdds 30% of DEF to ATK\nwhen calculating damage.'
   }, {
     icon: 35,
-    stats: [['iml', 20]],
+    stats: [['iml', 5]],
     tooltip: '5% BURN.'
   }, {
     icon: 36,
