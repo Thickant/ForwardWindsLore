@@ -8,7 +8,8 @@ define([''], function () {
     arrow: {
       anim: 'arrow',
       startPos: [0, 2],
-      movement: 'straight',
+      movement: 'horizontal',
+      reaction: 'push',
       dir: 'AIM'
     },
     attack: {
