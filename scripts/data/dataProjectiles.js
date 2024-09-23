@@ -9,7 +9,7 @@ define([''], function () {
       anim: 'arrow',
       startPos: [0, 2],
       movement: 'horizontal',
-      reaction: 'push',
+      onHit: 'shatter',
       dir: 'AIM'
     },
     attack: {
