@@ -7,9 +7,8 @@ define([''], function () {
   var projectiles = {
     arrow: {
       anim: 'arrow',
-      startPos: [0, 2],
+      startPos: [2, 2],
       movement: 'horizontal',
-      movement: 'ranged',
       dir: 'AIM'
     },
     attack: {
