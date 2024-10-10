@@ -358,7 +358,7 @@ define(['game', 'sat', 'stats', 'entity', 'dataEnemies', 'dataActions', 'action'
     }, {
       key: "grantExperience",
       value: function grantExperience(attacker, amount) {
-        var multiplier = Math.pow(0.75, Math.max(attacker.level - this.level, 0));
+        var multiplier = Math.pow(0.75, attacker.level - this.level);
         attacker.experience += multiplier * amount;
       } //*******************************************************************************************************************
       // * Conditions
